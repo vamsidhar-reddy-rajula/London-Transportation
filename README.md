@@ -1,4 +1,23 @@
-# This Project is to explore the Transportation API provided by the London government
+# This Project is to explore the Transportation API provided by Transport for London
+
+**Travel for London** is an integrated transport authority which runs London's public transport system and amanges main roads
+
+**Travel for London** operates and manages:
+
+- London Buses
+- London Undergrounds or tubes
+- Docklands Light Railway (DLR)
+- TfL Rail
+- London Trams
+- Roads
+- River
+- London Dial-a-Ride
+- Coaches and Victoria Coach Station
+- Cycling and walking
+- Emirates Air Line
+- Taxis and private hire
+- London Transport Museum
+- and some Non-travel activities
 
 ## API endpoints:
 
