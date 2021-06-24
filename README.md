@@ -1,0 +1,81 @@
+# This Project is to explore the Transportation API provided by the London government
+
+## API endpoints:
+
+- [**AccidentStats**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/AccidentStats/AccidentStats_Get):
+  - Gets all accident details for accidents occuring in the specified year
+- [**AirQuality**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/AirQuality/AirQuality_Get):
+  - Gets air quality data feed
+- [**BikePoint**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/BikePoint/BikePoint_GetAll):
+  - Gets all bike point locations
+  - Gets the bike point with the given id
+  - Search for bike stations by their name
+- [**Cabwise**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Cabwise/Cabwise_Get):
+  - Gets taxis and minicabs contact information
+- [**Journey**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Journey/Journey_Meta):
+  - Gets a list of all of the available journey planner modes
+  - Perform a Journey Planner search
+- [**Line**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Line/Line_MetaModes):
+  - Gets a list of valid modes
+  - Gets a list of valid severity codes
+  - Gets a list of valid disruption categories
+  - Gets a list of valid ServiceTypes to filter on
+  - Gets lines that match the specified line ids
+  - Gets lines that serve the given modes
+  - Get all valid routes for all lines, including the name and id of the originating and terminating stops for each route
+  - Get all valid routes for given line ids
+  - Gets all lines and their valid routes for given modes
+  - Gets all valid routes for given line id
+  - Gets the line status for given line ids during the provided dates e.g Minor Delays
+  - Gets the line status of for given line ids e.g Minor Delays
+  - Search for lines or routes matching the query string
+  - Gets the line status for all lines with a given severity
+  - Gets the line status of for all lines for the given modes
+  - Gets a list of the stations that serve the given line id
+  - Gets the timetable for a specified station on the give line
+  - Gets the timetable for a specified station on the give line with specified destination
+  - Get disruptions for the given line ids
+  - Get disruptions for all lines of the given modes
+  - Get the list of arrival predictions for given line ids based at the given stop
+- [**Mode**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Mode/Mode_GetActiveServiceTypes):
+  - Returns the service type active for a mode
+  - Gets the next arrival predictions for all stops of a given mode
+- [**Occupancy**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Occupancy/Occupancy_Get):
+  - Gets the occupancy for a car park with a given id
+  - Gets the occupancy for all car parks that have occupancy data
+  - Gets the occupancy for a charge connectors with a given id
+  - Gets the occupancy for all charge connectors
+  - Get the occupancy for bike points
+- [**Place**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Place/Place_MetaCategories):
+  - Gets a list of all of the available place property categories and keys.
+  - Gets a list of the available types of Place
+  - Gets the set of streets associated with a post code
+  - Gets all places of a given type
+  - Gets the place with the given id
+  - Gets the places that lie within a geographic region
+  - Gets any places of the given type whose geography intersects the given latitude and longitude
+  - Gets the place overlay for a given set of co-ordinates and a given width/height
+  - Gets all places that matches the given query
+- [**Road**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Road/Road_Get):
+  - Gets all roads managed by TfL
+  - Gets the road with the specified id
+    -Gets the specified roads with the status aggregated over the date range specified
+  - Get active disruptions, filtered by road ids
+  - Gets a list of disrupted streets.
+  - Gets a list of active disruptions filtered by disruption Ids.
+  - Gets a list of valid RoadDisruption categories
+  - Gets a list of valid RoadDisruption severity codes
+- [**Search**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Search/Search_Get):
+  - Search the site for occurrences of the query string
+  - Searches the bus schedules folder on S3 for a given bus number
+  - Gets the available searchProvider names
+  - Gets the available search categories
+  - Gets the available sorting options
+- [**StopPoint**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/StopPoint/StopPoint_MetaCategories):
+- [**TravelTime**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/TravelTime/TravelTime_GetOverlay):
+  - Gets the TravelTime overlay
+  -
+- [**Vehicle**](https://api.tfl.gov.uk/swagger/ui/index.html?url=/swagger/docs/v1#!/Vehicle/Vehicle_Get):
+  - Gets the predictions for a given list of vehicle Id's
+  - Gets the Emissions Surcharge compliance for the Vehicle
+  - Gets the Ulez Surcharge compliance for the Vehicle
