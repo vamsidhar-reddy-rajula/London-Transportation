@@ -1,3 +1,4 @@
 config.py
-Workbook for charting.xlsx
-accident stats.csv
+*.xlsx
+*.csv
+*.ipynb_checkpoints
